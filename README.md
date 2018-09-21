@@ -24,3 +24,11 @@ conda create --name py36 python=3.6
  source deactivate
  ```
  
+ ### Pytorch
+ Now install pytorch in this environment. First activate your environment. Then run (for cuda 9) 
+ 
+ ```
+ conda install pytorch torchvision -c pytorch
+ ``` 
+ Change this based on the cuda version you have, using the command from the [pytorch page](https://pytorch.org/get-started/locally/#anaconda)
+ 
