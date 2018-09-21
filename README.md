@@ -44,3 +44,11 @@ To deactivate an active environment, use:
  ``` 
  Change this based on the cuda version you have, using the command from the [pytorch page](https://pytorch.org/get-started/locally/#anaconda)
  
+### Jupyter Notebooks 
+
+Now setup a kernel for Jupyter Notebooks
+
+```
+conda install ipykernel
+python -m ipykernel install --user --name pytorch --display-name "PyTorch"
+```
