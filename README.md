@@ -63,8 +63,11 @@ To access this notebook remotely over SSH,
 Check to see if you have a notebook configuration file, jupyter_notebook_config.py. The default location for this file is your Jupyter folder located in your home directory:
 
 Windows: C:\Users\USERNAME\.jupyter\jupyter_notebook_config.py
+
 OS X: /Users/USERNAME/.jupyter/jupyter_notebook_config.py
+
 Linux: /home/USERNAME/.jupyter/jupyter_notebook_config.py
+
 If you don’t already have a Jupyter folder, or if your Jupyter folder doesn’t contain a notebook configuration file, run the following command:
 
 ```
