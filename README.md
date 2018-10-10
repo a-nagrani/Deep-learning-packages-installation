@@ -1,4 +1,4 @@
-# pytorch-installation
+# pytorch
 Installing pytorch on a remote machine + all dependencies and useful libraries 
 
 Assuming you have python3.6 or higher already. 
@@ -44,7 +44,7 @@ To deactivate an active environment, use:
  ``` 
  Change this based on the cuda version you have, using the command from the [pytorch page](https://pytorch.org/get-started/locally/#anaconda)
  
-### Jupyter Notebooks 
+# Jupyter Notebooks 
 
 Now setup a kernel for Jupyter Notebooks
 
@@ -100,4 +100,11 @@ arsha@shallow12
 Access the remote jupyter server via your local browser. Open your browser and go to:
 ```
 localhost:8888
+```
+# Useful python libraries 
+## LibROSA
+LibROSA is a great python package for audio and music processing. Here's a full [tutorial](https://librosa.github.io/librosa/tutorial.html). 
+The simplest way to install librosa is 
+``` 
+pip install librosa 
 ```
