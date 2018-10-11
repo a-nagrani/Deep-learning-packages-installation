@@ -163,15 +163,17 @@ pip install Keras
 ```
 
 Test it 
-``` 
-# invoke python from your shell
+
+Invoke python from your shell
+```
 python
- 
-# create a simple TensorFlow program inside the python interactive shell
+``` 
+create a simple TensorFlow program inside the python interactive shell
+```
 import tensorflow as tf
- hello = tf.constant('Hello, TensorFlow!')
- sess = tf.Session()
- print(sess.run(hello))
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()
+print(sess.run(hello))
 ```
 
 # Useful python libraries 
