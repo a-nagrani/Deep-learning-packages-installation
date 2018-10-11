@@ -1,4 +1,4 @@
-Installing pytorch, tensorflow, keras with conda. 
+Installing pytorch, tensorflow, keras with conda. For the GPU versions this assumes cuda is already installed. 
 Some useful tips for using remote machines. 
 
 
