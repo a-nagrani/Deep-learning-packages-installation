@@ -5,13 +5,49 @@ Assuming you have python3.6 or higher already.
 
 ### Anaconda 
 
-First get Anaconda from [here](https://www.anaconda.com/download/#linux). 
+Conda is a package manager to manage virtual environment and install packages. [Anaconda cheat sheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf). First get Anaconda from [here](https://www.anaconda.com/download/#linux). 
+
 Then run 
 ``` 
 sh Anaconda3-5.2.0-Linux-x86_64.sh 
 ```
 
-and follow the prompts. The defaults are generally good.
+and follow the prompts. The defaults are generally good. By downloading Anaconda, you get conda, Python, Jupyter Notebook and hundreds of other open source packages. You can use either conda or pip for installation in an virtual environment created with conda.
+Note: The differences between conda and pip 
+
+conda install — installs any software package.
+
+pip install — installs python packages only and it’s the defacto python package manager.
+
+
+Some useful conda commands: 
+
+```
+# update conda in your default environment 
+ conda upgrade conda
+ conda upgrade --all
+
+# create a new environment with conda
+ conda create -n [my-env-name]
+
+# activate the environment you created
+ source activate [my-env-name]
+
+# take a look at the environment you created
+ conda info
+ conda list
+
+# install a package with conda and verify it's installed
+ conda install numpy
+ conda list
+
+# take a look at the list of environments you currently have
+ conda info -e
+
+# remove an environment
+ conda env remove --name [my-env-name]
+
+```
 
 
 To install python 
@@ -20,7 +56,7 @@ To install python
 conda create --name py36 python=3.6
 ```
 
-Otherwise create a virtual environment for pytorch 
+Otherwise if you already have python, you can create a virtual environment for pytorch 
 
 ```
 conda create --name pytorch 
@@ -101,6 +137,12 @@ Access the remote jupyter server via your local browser. Open your browser and g
 ```
 localhost:8888
 ```
+
+# Installing TensorFlow with Keras 
+
+
+
+
 # Useful python libraries 
 ## LibROSA
 LibROSA is a great python package for audio and music processing. Here's a full [tutorial](https://librosa.github.io/librosa/tutorial.html). 
