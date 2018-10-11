@@ -140,8 +140,40 @@ localhost:8888
 
 # Installing TensorFlow with Keras 
 
+Create the virtual environment and activate it 
 
+```
+conda create --name tensorflow 
+source activate tensorflow 
+```
+Install the right version of python and pip in the virtual environment. NOTE: As of now, tensorflow does not support python3.7. 
+```
+conda install python==3.6
+conda install pip
+```
+Install tensorflow 
+## install Tensorflow
+```
+pip install --upgrade tensorflow # for python 2.7
+pip3 install --upgrade tensorflow # for python 3.*
+```
 
+## install Keras (Note: install TensorFlow first)
+```
+pip install Keras
+```
+
+Test it 
+``` 
+# invoke python from your shell
+python
+ 
+# create a simple TensorFlow program inside the python interactive shell
+import tensorflow as tf
+ hello = tf.constant('Hello, TensorFlow!')
+ sess = tf.Session()
+ print(sess.run(hello))
+```
 
 # Useful python libraries 
 ## LibROSA
