@@ -1,9 +1,8 @@
-# pytorch
-Installing pytorch on a remote machine + all dependencies and useful libraries 
+Installing pytorch, tensorflow, keras on a remote machine + all dependencies and useful libraries 
 
 Assuming you have python3.6 or higher already. 
 
-### Anaconda 
+# Anaconda 
 
 Conda is a package manager to manage virtual environment and install packages. [Anaconda cheat sheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf). First get Anaconda from [here](https://www.anaconda.com/download/#linux). 
 
@@ -55,8 +54,8 @@ To install python
 ```
 conda create --name py36 python=3.6
 ```
-
-Otherwise if you already have python, you can create a virtual environment for pytorch 
+ # Pytorch
+Create a virtual environment for pytorch 
 
 ```
 conda create --name pytorch 
@@ -72,7 +71,7 @@ To deactivate an active environment, use:
  source deactivate
  ```
  
- ### Pytorch
+
  Now install pytorch in this environment. First activate your environment. Then run (for cuda 9) 
  
  ```
