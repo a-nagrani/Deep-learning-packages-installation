@@ -154,7 +154,7 @@ Install tensorflow
 ## install Tensorflow
 ```
 pip install --upgrade tensorflow # for python 2.7
-pip3 install --upgrade tensorflow # for python 3.*
+pip3 install --upgrade tensorflow-gpu # for python 3.* and with GPU support 
 ```
 
 ## install Keras (Note: install TensorFlow first)
