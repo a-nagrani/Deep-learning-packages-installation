@@ -1,6 +1,6 @@
-Installing pytorch, tensorflow, keras on a remote machine + all dependencies and useful libraries 
+Installing pytorch, tensorflow, keras with conda. 
+Some useful tips for using remote machines. 
 
-Assuming you have python3.6 or higher already. 
 
 # Anaconda 
 
