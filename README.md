@@ -92,7 +92,7 @@ You can start a notebook by running
 ```
 jupyter notebook
 ```
-
+### Remote Access 
 To access this notebook remotely over SSH, 
 
 Check to see if you have a notebook configuration file, jupyter_notebook_config.py. The default location for this file is your Jupyter folder located in your home directory:
@@ -136,7 +136,10 @@ Access the remote jupyter server via your local browser. Open your browser and g
 ```
 localhost:8888
 ```
-
+Convert your notebook to a python script from the terminal:
+```
+jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb
+```
 # Installing TensorFlow with Keras 
 
 Create the virtual environment and activate it 
