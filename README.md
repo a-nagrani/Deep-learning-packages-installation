@@ -186,3 +186,8 @@ The simplest way to install librosa is
 ``` 
 pip install librosa 
 ```
+
+## OpenCV 
+```
+pip install opencv-python
+```
