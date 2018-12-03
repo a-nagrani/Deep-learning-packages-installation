@@ -191,3 +191,6 @@ pip install librosa
 ```
 pip install opencv-python
 ```
+
+## Visdom 
+Visdom is a useful tool for visualising data, and supports pytorch and numpy. Here's the official [github page](https://github.com/facebookresearch/visdom).
