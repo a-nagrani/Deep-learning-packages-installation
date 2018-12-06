@@ -1,5 +1,6 @@
-Installing pytorch, tensorflow, keras with conda. For the GPU versions this assumes cuda is already installed. 
-Some useful tips for using remote machines. 
+This repo contains instructions for installing pytorch, tensorflow and keras with conda. For the GPU versions this assumes cuda is already installed. 
+
+There are also some useful tips for using remote machines. THIS REPO IS STILL BEING UPDATED.
 
 
 # Anaconda 
