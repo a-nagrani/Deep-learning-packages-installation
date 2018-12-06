@@ -129,8 +129,6 @@ In a new terminal window on your local machine, SSH into the remote machine agai
 ssh -N -L localhost:8888:localhost:8889 user@remote_host
 ```
 
-arsha@shallow12 
-
 -N options tells SSH that no commands will be run and it’s useful for port forwarding, and -L lists the port forwarding configuration that we setup.
 
 Access the remote jupyter server via your local browser. Open your browser and go to:
