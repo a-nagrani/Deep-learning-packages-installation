@@ -178,6 +178,19 @@ sess = tf.Session()
 print(sess.run(hello))
 ```
 
+## Tensorboard over SSH 
+On the remote machine run 
+```
+tensorboard --logdir=./tmp  --port=8008
+``` 
+
+And then on your local machine
+
+```
+ssh -N -f -L localhost:16006:localhost:8008 <user@remote>
+```
+Then, navigate to (in this example) http://localhost:16006 on your local machine.
+
 # Useful python libraries 
 ## LibROSA
 LibROSA is a great python package for audio and music processing. Here's a full [tutorial](https://librosa.github.io/librosa/tutorial.html). 
