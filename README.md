@@ -139,7 +139,7 @@ Convert your notebook to a python script from the terminal:
 ```
 jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb
 ```
-# Installing TensorFlow with Keras 
+# TensorFlow  
 
 Create the virtual environment and activate it 
 
@@ -153,15 +153,9 @@ conda install python==3.6
 conda install pip
 ```
 Install tensorflow 
-## install Tensorflow
 ```
 pip install --upgrade tensorflow # for python 2.7
 pip3 install --upgrade tensorflow-gpu # for python 3.* and with GPU support 
-```
-
-## install Keras (Note: install TensorFlow first)
-```
-pip install Keras
 ```
 
 Test it 
@@ -177,7 +171,6 @@ hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 print(sess.run(hello))
 ```
-
 ## Tensorboard over SSH 
 On the remote machine run 
 ```
@@ -191,7 +184,19 @@ ssh -N -f -L localhost:16006:localhost:8008 <user@remote>
 ```
 Then, navigate to (in this example) http://localhost:16006 on your local machine.
 
-# Useful python libraries 
+
+# Keras (Note: install TensorFlow first)
+
+Keras is a high-level neural networks python API, and works with backends such as TensorFlow, CNTK, or Theano. It wraps up many common functions for deep learning nicely making fast experimentation possible. [Here](https://keras.io/) is the official documentation. [Here](https://github.com/fchollet/keras-resources) is a useful collection of Keras resources from Chollet.
+```
+pip install Keras
+```
+
+
+# Useful libraries
+## CuDNN
+cuDNN is library of primitives for deep neural networks that is specifically useful for training models on GPUs. Installation instructions are [here](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/)
+
 ## LibROSA
 LibROSA is a great python package for audio and music processing. Here's a full [tutorial](https://librosa.github.io/librosa/tutorial.html). 
 The simplest way to install librosa is 
@@ -206,3 +211,6 @@ pip install opencv-python
 
 ## Visdom 
 Visdom is a useful tool for visualising data, and supports pytorch and numpy. Here's the official [github page](https://github.com/facebookresearch/visdom).
+
+
+
