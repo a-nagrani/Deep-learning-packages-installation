@@ -185,9 +185,9 @@ ssh -N -f -L localhost:16006:localhost:8008 <user@remote>
 Then, navigate to (in this example) http://localhost:16006 on your local machine.
 
 
-# Keras (Note: install TensorFlow first)
+# Keras 
 
-Keras is a high-level neural networks python API, and works with backends such as TensorFlow, CNTK, or Theano. It wraps up many common functions for deep learning nicely making fast experimentation possible. [Here](https://keras.io/) is the official documentation. [Here](https://github.com/fchollet/keras-resources) is a useful collection of Keras resources from Chollet.
+Keras is a high-level neural networks python API, and works with backends such as TensorFlow, CNTK, or Theano. (Note: If you are using it with Tensorflow, then make sure to install TensorFlow first) It wraps up many common functions for deep learning nicely making fast experimentation possible. [Here](https://keras.io/) is the official documentation. [Here](https://github.com/fchollet/keras-resources) is a useful collection of Keras resources from Chollet.
 ```
 pip install Keras
 ```
